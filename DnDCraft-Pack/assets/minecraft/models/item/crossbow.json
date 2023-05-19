@@ -1,0 +1,13 @@
+{"parent":"item/generated","textures":{"layer0":"item/crossbow_standby"},"display":{"firstperson_righthand":{"rotation":[-90,0,-55],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]},"thirdperson_lefthand":{"rotation":[-90,0,30],"translation":[2,0.1,-3],"scale":[0.9,0.9,0.9]},"firstperson_lefthand":{"rotation":[-90,0,35],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]},"thirdperson_righthand":{"rotation":[-90,0,-60],"translation":[2,0.1,-3],"scale":[0.9,0.9,0.9]}},"overrides":[	
+
+{"predicate":{"custom_model_data":13},"model":"item/custom/cui/crossbow/model_13"},
+{"predicate": {"custom_model_data":13,"pulling": 1},"model": "item/custom/cui/crossbow/lightcrossbow_pulling_0"},
+{"predicate": {"custom_model_data":13,"pulling": 1,"pull": 0.58},"model": "item/custom/cui/crossbow/lightcrossbow_pulling_1"},
+{"predicate": {"custom_model_data":13,"pulling": 1,"pull": 1.0},"model": "item/custom/cui/crossbow/lightcrossbow_pulling_1"},
+{"predicate": {"custom_model_data":13,"charged": 1},"model": "item/custom/cui/crossbow/lightcrossbow_charged"},
+{"predicate":{"custom_model_data":14},"model":"item/custom/cui/crossbow/model_15"},
+{"predicate": {"custom_model_data":14,"pulling": 1},"model": "item/custom/cui/crossbow/heavycrossbow_pulling_0"},
+{"predicate": {"custom_model_data":14,"pulling": 1,"pull": 0.58},"model": "item/custom/cui/crossbow/heavycrossbow_pulling_1"},
+{"predicate": {"custom_model_data":14,"pulling": 1,"pull": 1.0},"model": "item/custom/cui/crossbow/heavycrossbow_pulling_1"},
+{"predicate": {"custom_model_data":14,"charged": 1},"model": "item/custom/cui/crossbow/heavycrossbow_charged"}
+]}

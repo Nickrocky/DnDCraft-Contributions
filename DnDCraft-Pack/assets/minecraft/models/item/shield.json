@@ -1,0 +1,25 @@
+{"parent":"builtin/entity","gui_light":"front","textures":{"particle":"block/dark_oak_planks"},"display":{"firstperson_righthand":{"rotation":[0,180,5],"translation":[-10,2,-10],"scale":[1.25,1.25,1.25]},"thirdperson_lefthand":{"rotation":[0,90,0],"translation":[10,6,12],"scale":[1,1,1]},"firstperson_lefthand":{"rotation":[0,180,5],"translation":[10,0,-10],"scale":[1.25,1.25,1.25]},"thirdperson_righthand":{"rotation":[0,90,0],"translation":[10,6,-4],"scale":[1,1,1]},"gui":{"rotation":[15,-25,-5],"translation":[2,3,0],"scale":[0.65,0.65,0.65]},"fixed":{"rotation":[0,180,0],"translation":[-2,4,-5],"scale":[0.5,0.5,0.5]},"ground":{"rotation":[0,0,0],"translation":[4,4,2],"scale":[0.25,0.25,0.25]}},"overrides":[{"predicate":{"custom_model_data":12},"model":"item/custom/cui/shield/model_12"},
+{
+            "predicate": {
+                "blocking": 1,
+"custom_model_data":12
+            },
+            "model": "item/custom/cui/shield/model_12block"
+        },
+{"predicate":{"custom_model_data":13},"model":"item/custom/cui/shield/model_13"},
+{
+            "predicate": {
+                "blocking": 1,
+"custom_model_data":13
+            },
+            "model": "item/custom/cui/shield/model_13block"
+        },
+{"predicate":{"custom_model_data":14},"model":"item/custom/cui/shield/model_14"},
+{
+            "predicate": {
+                "blocking": 1,
+"custom_model_data":14
+            },
+            "model": "item/custom/cui/shield/model_14block"
+        }
+]}

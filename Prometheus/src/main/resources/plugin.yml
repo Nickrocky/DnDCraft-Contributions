@@ -1,0 +1,10 @@
+name: Prometheus
+author: nickrocky213
+main: com.dndcraft.prometheus.Prometheus
+depend: [Atlas]
+version: 0.3.1
+api-version: 1.18
+commands:
+  prometheus:
+    description: a sanity test
+    usage: /prometheus

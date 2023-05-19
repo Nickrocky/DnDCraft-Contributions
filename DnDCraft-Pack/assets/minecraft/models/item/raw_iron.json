@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/raw_iron"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":1}, "model": "item/dndcraft/noctis/basic_key"},
+    {"predicate": {"custom_model_data":2}, "model": "item/dndcraft/noctis/advanced_key"},
+    {"predicate": {"custom_model_data":3}, "model": "item/dndcraft/noctis/keyring"},
+    {"predicate": {"custom_model_data":4}, "model": "item/dndcraft/noctis/basic_key_blank"},
+    {"predicate": {"custom_model_data":5}, "model": "item/dndcraft/noctis/advanced_key_blank"}
+  ]
+}

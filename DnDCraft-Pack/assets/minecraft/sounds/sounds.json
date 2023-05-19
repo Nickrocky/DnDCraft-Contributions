@@ -1,0 +1,7 @@
+{
+  "dndcraft.door_locked": {
+    "sounds": [
+      "dndcraft/door_locked"
+    ]
+  }
+}

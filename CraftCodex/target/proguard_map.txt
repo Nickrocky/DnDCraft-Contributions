@@ -1,0 +1,378 @@
+com.dndcraft.craftcodex.CraftCodex -> com.dndcraft.craftcodex.CraftCodex:
+    com.dndcraft.craftcodex.CraftCodex instance -> instance
+    com.dndcraft.craftcodex.manager.AccountNameManager nameManager -> nameManager
+    com.dndcraft.craftcodex.manager.AccountManager ccAccountManager -> ccAccountManager
+    void <init>() -> <init>
+    com.dndcraft.craftcodex.CraftCodex get() -> get
+    com.dndcraft.craftcodex.manager.AccountNameManager getNameManager() -> getNameManager
+    com.dndcraft.craftcodex.manager.AccountManager getCCAccountManager() -> getCCAccountManager
+    void onEnable() -> onEnable
+    void onDisable() -> onDisable
+com.dndcraft.craftcodex.account.Account -> com.dndcraft.craftcodex.a.a:
+    java.util.UUID discordUUID -> a
+    java.util.UUID minecraftUUID -> b
+    com.dndcraft.craftcodex.account.Session currentSession -> c
+    java.lang.String dndcraftName -> d
+    int getAccountID() -> getAccountID
+    java.lang.String getDNDCraftName() -> getDNDCraftName
+    java.util.UUID getDiscordUUID() -> getDiscordUUID
+    java.util.UUID getMinecraftUUID() -> getMinecraftUUID
+    java.util.List getDNDCraftNameHistory() -> getDNDCraftNameHistory
+    com.dndcraft.craftcodex.api.account.Session getSession() -> getSession
+com.dndcraft.craftcodex.account.LocationNotSetException -> com.dndcraft.craftcodex.a.b:
+    void <init>() -> <init>
+com.dndcraft.craftcodex.account.Session -> com.dndcraft.craftcodex.a.c:
+    com.dndcraft.atlas.util.objects.AtlasLocation loginLocation -> a
+    com.dndcraft.atlas.util.objects.AtlasLocation logoutLocation -> b
+    long getLogoutTime() -> getLogoutTime
+    long getLoginTime() -> getLoginTime
+    java.time.LocalDateTime getLoginDateTime() -> getLoginDateTime
+    java.time.LocalDateTime getLogoutDateTime() -> getLogoutDateTime
+    com.dndcraft.atlas.util.objects.AtlasLocation getLoginLocation() -> getLoginLocation
+    com.dndcraft.atlas.util.objects.AtlasLocation getLogoutLocation() -> getLogoutLocation
+    int getTimePlayed() -> getTimePlayed
+com.dndcraft.craftcodex.account.TimeNotSetException -> com.dndcraft.craftcodex.a.d:
+    void <init>() -> <init>
+com.dndcraft.craftcodex.api.CraftCodex -> com.dndcraft.craftcodex.api.CraftCodex:
+    com.dndcraft.craftcodex.api.CraftCodex api -> api
+    com.dndcraft.craftcodex.api.manager.AccountManager accountManager -> accountManager
+    void <init>() -> <init>
+    com.dndcraft.craftcodex.api.CraftCodex getApi() -> getApi
+    com.dndcraft.craftcodex.api.manager.AccountManager getAccountManager() -> getAccountManager
+    void setAccountManager(com.dndcraft.craftcodex.api.manager.AccountManager) -> setAccountManager
+com.dndcraft.craftcodex.api.account.Account -> com.dndcraft.craftcodex.api.account.Account:
+    int getAccountID() -> getAccountID
+    com.dndcraft.craftcodex.api.account.Session getSession() -> getSession
+    java.lang.String getDNDCraftName() -> getDNDCraftName
+    java.util.UUID getDiscordUUID() -> getDiscordUUID
+    java.util.UUID getMinecraftUUID() -> getMinecraftUUID
+    java.util.List getDNDCraftNameHistory() -> getDNDCraftNameHistory
+com.dndcraft.craftcodex.api.account.Session -> com.dndcraft.craftcodex.api.account.Session:
+    long getLogoutTime() -> getLogoutTime
+    long getLoginTime() -> getLoginTime
+    java.time.LocalDateTime getLoginDateTime() -> getLoginDateTime
+    java.time.LocalDateTime getLogoutDateTime() -> getLogoutDateTime
+    com.dndcraft.atlas.util.objects.AtlasLocation getLoginLocation() -> getLoginLocation
+    com.dndcraft.atlas.util.objects.AtlasLocation getLogoutLocation() -> getLogoutLocation
+    int getTimePlayed() -> getTimePlayed
+com.dndcraft.craftcodex.api.character.Character -> com.dndcraft.craftcodex.api.character.Character:
+com.dndcraft.craftcodex.api.character.attribute.BodyParts -> com.dndcraft.craftcodex.api.character.attribute.BodyParts:
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts HEAD -> HEAD
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts CHEST -> CHEST
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts WAIST -> WAIST
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts LEFT_ARM -> LEFT_ARM
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts RIGHT_ARM -> RIGHT_ARM
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts LEFT_LEG -> LEFT_LEG
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts RIGHT_LEG -> RIGHT_LEG
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts LEFT_HAND -> LEFT_HAND
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts RIGHT_HAND -> RIGHT_HAND
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts[] values() -> values
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    com.dndcraft.craftcodex.api.character.attribute.BodyParts[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.character.attribute.HealthState -> com.dndcraft.craftcodex.api.character.attribute.HealthState:
+    com.dndcraft.craftcodex.api.character.attribute.HealthState HEALTHY -> HEALTHY
+    com.dndcraft.craftcodex.api.character.attribute.HealthState MINOR_INJURY -> MINOR_INJURY
+    com.dndcraft.craftcodex.api.character.attribute.HealthState MODERATE_INJURY -> MODERATE_INJURY
+    com.dndcraft.craftcodex.api.character.attribute.HealthState SEVERE_INJURY -> SEVERE_INJURY
+    com.dndcraft.craftcodex.api.character.attribute.HealthState CRITICAL_INJURY -> CRITICAL_INJURY
+    com.dndcraft.craftcodex.api.character.attribute.HealthState BROKEN -> BROKEN
+    com.dndcraft.craftcodex.api.character.attribute.HealthState[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.character.attribute.HealthState[] values() -> values
+    com.dndcraft.craftcodex.api.character.attribute.HealthState valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    com.dndcraft.craftcodex.api.character.attribute.HealthState[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.character.attribute.Race -> com.dndcraft.craftcodex.api.character.attribute.Race:
+    com.dndcraft.craftcodex.api.character.attribute.Race HUMAN -> HUMAN
+    com.dndcraft.craftcodex.api.character.attribute.Race ELVES -> ELVES
+    com.dndcraft.craftcodex.api.character.attribute.Race DRAGON_PEOPLE -> DRAGON_PEOPLE
+    com.dndcraft.craftcodex.api.character.attribute.Race DWARVES -> DWARVES
+    com.dndcraft.craftcodex.api.character.attribute.Race LIZARD_PEOPLE -> LIZARD_PEOPLE
+    com.dndcraft.craftcodex.api.character.attribute.Race BIRD_PEOPLE -> BIRD_PEOPLE
+    com.dndcraft.craftcodex.api.character.attribute.Race FISH_PEOPLE -> FISH_PEOPLE
+    com.dndcraft.craftcodex.api.character.attribute.Race DRAGON -> DRAGON
+    com.dndcraft.craftcodex.api.character.attribute.Race[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.character.attribute.Race[] values() -> values
+    com.dndcraft.craftcodex.api.character.attribute.Race valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    com.dndcraft.craftcodex.api.character.attribute.Race[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.character.capability.IBody -> com.dndcraft.craftcodex.api.character.capability.IBody:
+    int getPartHealth(com.dndcraft.craftcodex.api.character.attribute.BodyParts) -> getPartHealth
+    com.dndcraft.craftcodex.api.character.attribute.HealthState setPartHealth(com.dndcraft.craftcodex.api.character.attribute.BodyParts,int) -> setPartHealth
+    com.dndcraft.craftcodex.api.character.attribute.HealthState injure(com.dndcraft.craftcodex.api.character.attribute.BodyParts,int) -> injure
+    com.dndcraft.craftcodex.api.character.attribute.HealthState heal(com.dndcraft.craftcodex.api.character.attribute.BodyParts,int) -> heal
+    int getHeadHealth() -> getHeadHealth
+    int getChestHealth() -> getChestHealth
+    int getLeftArmHealth() -> getLeftArmHealth
+    int getRightArmHealth() -> getRightArmHealth
+    int getLeftLegHealth() -> getLeftLegHealth
+    int getRightLegHealth() -> getRightLegHealth
+    int getWaistHealth() -> getWaistHealth
+    int getRightHandHealth() -> getRightHandHealth
+    int getLeftHandHealth() -> getLeftHandHealth
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getHeadHealthState() -> getHeadHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getChestHealthState() -> getChestHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getLeftArmHealthState() -> getLeftArmHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getRightArmHealthState() -> getRightArmHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getLeftLegHealthState() -> getLeftLegHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getRightLegHealthState() -> getRightLegHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getWaistHealthState() -> getWaistHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getRightHandHealthState() -> getRightHandHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getLeftHandHealthState() -> getLeftHandHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getBodyPartHealthState(com.dndcraft.craftcodex.api.character.attribute.BodyParts) -> getBodyPartHealthState
+com.dndcraft.craftcodex.api.character.capability.ICharacterTag -> com.dndcraft.craftcodex.api.character.capability.ICharacterTag:
+    java.lang.String getTagType() -> getTagType
+com.dndcraft.craftcodex.api.character.capability.ICraftDataContainer -> com.dndcraft.craftcodex.api.character.capability.ICraftDataContainer:
+    java.util.HashMap getPluginSpecificData() -> getPluginSpecificData
+    java.util.HashMap getAtlasData() -> getAtlasData
+    boolean hasAtlasTag(java.lang.String) -> hasAtlasTag
+    boolean hasPluginTag(org.bukkit.NamespacedKey) -> hasPluginTag
+    com.dndcraft.craftcodex.api.character.capability.ICharacterTag getAtlasTag(java.lang.String) -> getAtlasTag
+    com.dndcraft.craftcodex.api.character.capability.ICharacterTag getPluginTag(org.bukkit.NamespacedKey) -> getPluginTag
+    java.lang.String getAtlasTagString(java.lang.String) -> getAtlasTagString
+    java.lang.String getPluginTagString(org.bukkit.NamespacedKey) -> getPluginTagString
+    int getAtlasTagInteger(java.lang.String) -> getAtlasTagInteger
+    int getPluginTagInteger(org.bukkit.NamespacedKey) -> getPluginTagInteger
+    boolean isOfType(com.dndcraft.craftcodex.api.character.capability.ICharacterTag,java.lang.String) -> isOfType
+    boolean isOfType(com.dndcraft.craftcodex.api.character.capability.ICharacterTag,com.dndcraft.craftcodex.api.character.data.CraftTags) -> isOfType
+    void setAtlasTag(java.lang.String,com.dndcraft.craftcodex.api.character.capability.ICharacterTag) -> setAtlasTag
+    void setPluginTag(org.bukkit.NamespacedKey,com.dndcraft.craftcodex.api.character.capability.ICharacterTag) -> setPluginTag
+com.dndcraft.craftcodex.api.character.capability.IManaContainer -> com.dndcraft.craftcodex.api.character.capability.IManaContainer:
+    com.dndcraft.craftcodex.api.util.ManaHolderType getType() -> getType
+    int getMana() -> getMana
+    void modifyMana(com.dndcraft.craftcodex.api.util.transaction.ManaTransaction) -> modifyMana
+    void modifyMana(com.dndcraft.craftcodex.api.util.transaction.ManaTransaction,int) -> modifyMana
+    void increaseManaPoolSize(int) -> increaseManaPoolSize
+    void decreaseManaPoolSize(int) -> decreaseManaPoolSize
+com.dndcraft.craftcodex.api.character.data.BooleanTag -> com.dndcraft.craftcodex.api.character.data.BooleanTag:
+    boolean value -> value
+    org.bukkit.NamespacedKey namespacedKey -> namespacedKey
+    void <init>() -> <init>
+    void <init>(org.bukkit.NamespacedKey,boolean) -> <init>
+    void <init>(java.lang.String,boolean) -> <init>
+    org.bson.Document toDocument() -> toDocument
+    void fromDocument(org.bson.Document) -> fromDocument
+    java.lang.String getTagType() -> getTagType
+    boolean isValue() -> isValue
+com.dndcraft.craftcodex.api.character.data.CraftTags -> com.dndcraft.craftcodex.api.character.data.CraftTags:
+    com.dndcraft.craftcodex.api.character.data.CraftTags STRING -> STRING
+    com.dndcraft.craftcodex.api.character.data.CraftTags BOOLEAN -> BOOLEAN
+    com.dndcraft.craftcodex.api.character.data.CraftTags DOUBLE -> DOUBLE
+    com.dndcraft.craftcodex.api.character.data.CraftTags INTEGER -> INTEGER
+    com.dndcraft.craftcodex.api.character.data.CraftTags UUID -> UUID
+    com.dndcraft.craftcodex.api.character.data.CraftTags[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.character.data.CraftTags[] values() -> values
+    com.dndcraft.craftcodex.api.character.data.CraftTags valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    com.dndcraft.craftcodex.api.character.data.CraftTags[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.character.data.DoubleTag -> com.dndcraft.craftcodex.api.character.data.DoubleTag:
+    double value -> value
+    org.bukkit.NamespacedKey namespacedKey -> namespacedKey
+    void <init>() -> <init>
+    void <init>(org.bukkit.NamespacedKey,double) -> <init>
+    void <init>(java.lang.String,double) -> <init>
+    org.bson.Document toDocument() -> toDocument
+    void fromDocument(org.bson.Document) -> fromDocument
+    java.lang.String getTagType() -> getTagType
+    double getValue() -> getValue
+com.dndcraft.craftcodex.api.character.data.IntegerTag -> com.dndcraft.craftcodex.api.character.data.IntegerTag:
+    int value -> value
+    org.bukkit.NamespacedKey namespacedKey -> namespacedKey
+    void <init>() -> <init>
+    void <init>(org.bukkit.NamespacedKey,int) -> <init>
+    void <init>(java.lang.String,int) -> <init>
+    org.bson.Document toDocument() -> toDocument
+    void fromDocument(org.bson.Document) -> fromDocument
+    java.lang.String getTagType() -> getTagType
+    int getValue() -> getValue
+com.dndcraft.craftcodex.api.character.data.StringTag -> com.dndcraft.craftcodex.api.character.data.StringTag:
+    java.lang.String string -> string
+    org.bukkit.NamespacedKey namespacedKey -> namespacedKey
+    void <init>() -> <init>
+    void <init>(org.bukkit.NamespacedKey,java.lang.String) -> <init>
+    void <init>(java.lang.String,java.lang.String) -> <init>
+    org.bson.Document toDocument() -> toDocument
+    void fromDocument(org.bson.Document) -> fromDocument
+    java.lang.String getTagType() -> getTagType
+    org.bukkit.NamespacedKey getNamespacedKey() -> getNamespacedKey
+    java.lang.String getString() -> getString
+com.dndcraft.craftcodex.api.character.data.UUIDTag -> com.dndcraft.craftcodex.api.character.data.UUIDTag:
+    java.util.UUID uuid -> uuid
+    org.bukkit.NamespacedKey namespacedKey -> namespacedKey
+    void <init>() -> <init>
+    void <init>(org.bukkit.NamespacedKey,java.util.UUID) -> <init>
+    void <init>(java.lang.String,java.util.UUID) -> <init>
+    org.bson.Document toDocument() -> toDocument
+    void fromDocument(org.bson.Document) -> fromDocument
+    java.lang.String getTagType() -> getTagType
+    org.bukkit.NamespacedKey getNamespacedKey() -> getNamespacedKey
+    java.util.UUID getUuid() -> getUuid
+com.dndcraft.craftcodex.api.manager.AccountManager -> com.dndcraft.craftcodex.api.manager.AccountManager:
+    com.dndcraft.craftcodex.account.Account getAccount(java.util.UUID) -> getAccount
+    boolean exists(java.util.UUID) -> exists
+com.dndcraft.craftcodex.api.party.Party -> com.dndcraft.craftcodex.api.party.Party:
+com.dndcraft.craftcodex.api.util.ICCSerializable -> com.dndcraft.craftcodex.api.util.ICCSerializable:
+    org.bson.Document toDocument() -> toDocument
+    void fromDocument(org.bson.Document) -> fromDocument
+    org.json.simple.JSONObject toJson() -> toJson
+    void fromJson(java.lang.String) -> fromJson
+com.dndcraft.craftcodex.api.util.ManaHolderType -> com.dndcraft.craftcodex.api.util.ManaHolderType:
+    com.dndcraft.craftcodex.api.util.ManaHolderType CHARACTER -> CHARACTER
+    com.dndcraft.craftcodex.api.util.ManaHolderType WORLD -> WORLD
+    com.dndcraft.craftcodex.api.util.ManaHolderType ENTITY -> ENTITY
+    com.dndcraft.craftcodex.api.util.ManaHolderType[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.util.ManaHolderType[] values() -> values
+    com.dndcraft.craftcodex.api.util.ManaHolderType valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    com.dndcraft.craftcodex.api.util.ManaHolderType[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.util.interactions.HealthInteractions -> com.dndcraft.craftcodex.api.util.interactions.HealthInteractions:
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions HEAL -> HEAL
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions DAMAGE -> DAMAGE
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions BREAK -> BREAK
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions[] values() -> values
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.util.interactions.ManaInteractions -> com.dndcraft.craftcodex.api.util.interactions.ManaInteractions:
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions REGENERATED -> REGENERATED
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions SPENT -> SPENT
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions GAINED -> GAINED
+    java.lang.String reasonText -> reasonText
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions[] values() -> values
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int,java.lang.String) -> <init>
+    java.lang.String getReasonText() -> getReasonText
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions -> com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions:
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions SPENT -> SPENT
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions EARNED -> EARNED
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions LOST -> LOST
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions PICKED_UP -> PICKED_UP
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions DEPOSITED -> DEPOSITED
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions WITHDREW -> WITHDREW
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions[] $VALUES -> $VALUES
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions[] values() -> values
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions[] $values() -> $values
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.api.util.transaction.HealthTransaction -> com.dndcraft.craftcodex.api.util.transaction.HealthTransaction:
+    org.bukkit.plugin.java.JavaPlugin pluginName -> pluginName
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions interaction -> interaction
+    int value -> value
+    void <init>(org.bukkit.plugin.java.JavaPlugin,com.dndcraft.craftcodex.api.util.interactions.HealthInteractions,int) -> <init>
+    org.bukkit.plugin.java.JavaPlugin getOriginator() -> getOriginator
+    java.lang.String getReason() -> getReason
+    com.dndcraft.craftcodex.api.util.interactions.HealthInteractions getInteraction() -> getInteraction
+    int getValue() -> getValue
+com.dndcraft.craftcodex.api.util.transaction.ManaTransaction -> com.dndcraft.craftcodex.api.util.transaction.ManaTransaction:
+    org.bukkit.plugin.java.JavaPlugin pluginName -> pluginName
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions interaction -> interaction
+    double value -> value
+    void <init>(org.bukkit.plugin.java.JavaPlugin,com.dndcraft.craftcodex.api.util.interactions.ManaInteractions,double) -> <init>
+    org.bukkit.plugin.java.JavaPlugin getOriginator() -> getOriginator
+    java.lang.String getReason() -> getReason
+    com.dndcraft.craftcodex.api.util.interactions.ManaInteractions getInteraction() -> getInteraction
+    double getValue() -> getValue
+com.dndcraft.craftcodex.api.util.transaction.MonetaryTransaction -> com.dndcraft.craftcodex.api.util.transaction.MonetaryTransaction:
+    org.bukkit.plugin.java.JavaPlugin pluginName -> pluginName
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions monetaryInteraction -> monetaryInteraction
+    double value -> value
+    void <init>(org.bukkit.plugin.java.JavaPlugin,com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions,double) -> <init>
+    org.bukkit.plugin.java.JavaPlugin getOriginator() -> getOriginator
+    java.lang.String getReason() -> getReason
+    com.dndcraft.craftcodex.api.util.interactions.MonetaryInteractions getMonetaryInteraction() -> getMonetaryInteraction
+    double getValue() -> getValue
+com.dndcraft.craftcodex.api.util.transaction.Transaction -> com.dndcraft.craftcodex.api.util.transaction.Transaction:
+    org.bukkit.plugin.java.JavaPlugin getOriginator() -> getOriginator
+    java.lang.String getReason() -> getReason
+com.dndcraft.craftcodex.character.Character -> com.dndcraft.craftcodex.b.a:
+    void <init>() -> <init>
+    org.bson.Document toDocument() -> toDocument
+    void fromDocument(org.bson.Document) -> fromDocument
+    int getPartHealth(com.dndcraft.craftcodex.api.character.attribute.BodyParts) -> getPartHealth
+    com.dndcraft.craftcodex.api.character.attribute.HealthState setPartHealth(com.dndcraft.craftcodex.api.character.attribute.BodyParts,int) -> setPartHealth
+    com.dndcraft.craftcodex.api.character.attribute.HealthState injure(com.dndcraft.craftcodex.api.character.attribute.BodyParts,int) -> injure
+    com.dndcraft.craftcodex.api.character.attribute.HealthState heal(com.dndcraft.craftcodex.api.character.attribute.BodyParts,int) -> heal
+    int getHeadHealth() -> getHeadHealth
+    int getChestHealth() -> getChestHealth
+    int getLeftArmHealth() -> getLeftArmHealth
+    int getRightArmHealth() -> getRightArmHealth
+    int getLeftLegHealth() -> getLeftLegHealth
+    int getRightLegHealth() -> getRightLegHealth
+    int getWaistHealth() -> getWaistHealth
+    int getRightHandHealth() -> getRightHandHealth
+    int getLeftHandHealth() -> getLeftHandHealth
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getHeadHealthState() -> getHeadHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getChestHealthState() -> getChestHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getLeftArmHealthState() -> getLeftArmHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getRightArmHealthState() -> getRightArmHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getLeftLegHealthState() -> getLeftLegHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getRightLegHealthState() -> getRightLegHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getWaistHealthState() -> getWaistHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getRightHandHealthState() -> getRightHandHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getLeftHandHealthState() -> getLeftHandHealthState
+    com.dndcraft.craftcodex.api.character.attribute.HealthState getBodyPartHealthState(com.dndcraft.craftcodex.api.character.attribute.BodyParts) -> getBodyPartHealthState
+    java.util.HashMap getPluginSpecificData() -> getPluginSpecificData
+    java.util.HashMap getAtlasData() -> getAtlasData
+    boolean hasAtlasTag(java.lang.String) -> hasAtlasTag
+    boolean hasPluginTag(org.bukkit.NamespacedKey) -> hasPluginTag
+    com.dndcraft.craftcodex.api.character.capability.ICharacterTag getAtlasTag(java.lang.String) -> getAtlasTag
+    com.dndcraft.craftcodex.api.character.capability.ICharacterTag getPluginTag(org.bukkit.NamespacedKey) -> getPluginTag
+    java.lang.String getAtlasTagString(java.lang.String) -> getAtlasTagString
+    java.lang.String getPluginTagString(org.bukkit.NamespacedKey) -> getPluginTagString
+    int getAtlasTagInteger(java.lang.String) -> getAtlasTagInteger
+    int getPluginTagInteger(org.bukkit.NamespacedKey) -> getPluginTagInteger
+    boolean isOfType(com.dndcraft.craftcodex.api.character.capability.ICharacterTag,java.lang.String) -> isOfType
+    boolean isOfType(com.dndcraft.craftcodex.api.character.capability.ICharacterTag,com.dndcraft.craftcodex.api.character.data.CraftTags) -> isOfType
+    void setAtlasTag(java.lang.String,com.dndcraft.craftcodex.api.character.capability.ICharacterTag) -> setAtlasTag
+    void setPluginTag(org.bukkit.NamespacedKey,com.dndcraft.craftcodex.api.character.capability.ICharacterTag) -> setPluginTag
+    com.dndcraft.craftcodex.api.util.ManaHolderType getType() -> getType
+    int getMana() -> getMana
+    void modifyMana(com.dndcraft.craftcodex.api.util.transaction.ManaTransaction) -> modifyMana
+    void modifyMana(com.dndcraft.craftcodex.api.util.transaction.ManaTransaction,int) -> modifyMana
+    void increaseManaPoolSize(int) -> increaseManaPoolSize
+    void decreaseManaPoolSize(int) -> decreaseManaPoolSize
+com.dndcraft.craftcodex.listener.ChatListener -> com.dndcraft.craftcodex.c.a:
+    void <init>() -> <init>
+com.dndcraft.craftcodex.listener.PlayerListener -> com.dndcraft.craftcodex.c.b:
+    void <init>() -> <init>
+com.dndcraft.craftcodex.manager.AccountManager -> com.dndcraft.craftcodex.d.a:
+    java.util.HashMap accountHashMap -> a
+    void <init>() -> <init>
+    com.dndcraft.craftcodex.account.Account getAccount(java.util.UUID) -> getAccount
+    boolean exists(java.util.UUID) -> exists
+com.dndcraft.craftcodex.manager.AccountNameManager -> com.dndcraft.craftcodex.d.b:
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.party.LootingType -> com.dndcraft.craftcodex.e.a:
+    com.dndcraft.craftcodex.party.LootingType ROLLING -> a
+    com.dndcraft.craftcodex.party.LootingType LOOTMASTER -> b
+    void <init>(java.lang.String,int) -> <init>
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.party.Party -> com.dndcraft.craftcodex.e.b:
+com.dndcraft.craftcodex.party.PartyIntentType -> com.dndcraft.craftcodex.e.c:
+    com.dndcraft.craftcodex.party.PartyIntentType CONQUEST -> b
+    com.dndcraft.craftcodex.party.PartyIntentType GATHERING -> c
+    com.dndcraft.craftcodex.party.PartyIntentType CASUAL -> d
+    com.dndcraft.craftcodex.party.PartyIntentType EVENT -> e
+    com.dndcraft.craftcodex.party.PartyIntentType UNSET -> a
+    void <init>(java.lang.String,int) -> <init>
+    void <clinit>() -> <clinit>
+com.dndcraft.craftcodex.party.PartyRules -> com.dndcraft.craftcodex.e.d:
+    void <init>() -> <init>
+com.dndcraft.craftcodex.storage.CraftStorage -> com.dndcraft.craftcodex.f.a:
+    void <init>() -> <init>
+    java.util.List getDnDCraftNameHistory(com.dndcraft.craftcodex.account.Account) -> a
+    void lambda$getDnDCraftNameHistory$0(java.util.List,co.aikar.idb.DbRow) -> a
+com.dndcraft.craftcodex.storage.StorageException -> com.dndcraft.craftcodex.f.b:

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gunpowder"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":1}, "model": "item/dndcraft/apollo/asharp_1"},
+    {"predicate": {"custom_model_data":2}, "model": "item/dndcraft/apollo/a_1"},
+    {"predicate": {"custom_model_data":3}, "model": "item/dndcraft/apollo/b_1"},
+    {"predicate": {"custom_model_data":4}, "model": "item/dndcraft/apollo/c_1"},
+    {"predicate": {"custom_model_data":5}, "model": "item/dndcraft/apollo/csharp_1"},
+    {"predicate": {"custom_model_data":6}, "model": "item/dndcraft/apollo/d_1"},
+    {"predicate": {"custom_model_data":7}, "model": "item/dndcraft/apollo/dsharp_1"},
+    {"predicate": {"custom_model_data":8}, "model": "item/dndcraft/apollo/e_1"},
+    {"predicate": {"custom_model_data":9}, "model": "item/dndcraft/apollo/f_1"},
+    {"predicate": {"custom_model_data":10}, "model": "item/dndcraft/apollo/fsharp_1"},
+    {"predicate": {"custom_model_data":11}, "model": "item/dndcraft/apollo/g_1"},
+    {"predicate": {"custom_model_data":12}, "model": "item/dndcraft/apollo/gsharp_1"},
+    {"predicate": {"custom_model_data":13}, "model": "item/dndcraft/apollo/asharp_2"},
+    {"predicate": {"custom_model_data":14}, "model": "item/dndcraft/apollo/a_2"},
+    {"predicate": {"custom_model_data":15}, "model": "item/dndcraft/apollo/b_2"},
+    {"predicate": {"custom_model_data":16}, "model": "item/dndcraft/apollo/c_2"},
+    {"predicate": {"custom_model_data":17}, "model": "item/dndcraft/apollo/csharp_2"},
+    {"predicate": {"custom_model_data":18}, "model": "item/dndcraft/apollo/d_2"},
+    {"predicate": {"custom_model_data":19}, "model": "item/dndcraft/apollo/dsharp_2"},
+    {"predicate": {"custom_model_data":20}, "model": "item/dndcraft/apollo/e_2"},
+    {"predicate": {"custom_model_data":21}, "model": "item/dndcraft/apollo/f_2"},
+    {"predicate": {"custom_model_data":22}, "model": "item/dndcraft/apollo/fsharp_2"},
+    {"predicate": {"custom_model_data":23}, "model": "item/dndcraft/apollo/gsharp_2"},
+    {"predicate": {"custom_model_data":24}, "model": "item/dndcraft/apollo/g_2"},
+    {"predicate": {"custom_model_data":25}, "model": "item/dndcraft/apollo/fsharp_3"}
+  ]
+}

@@ -1,0 +1,14 @@
+name: CraftChat
+main: com.dndcraft.craftchat.CraftChat
+version: 0.1.1
+depend: [Atlas, CraftCodex]
+api-version: 1.18
+commands:
+  friend:
+    usage: /friend <sub_command>
+    permission: craftchat.member
+    description: the node root for all friend commands
+  chat:
+    usage: /chat <sub_command>
+    permission: craftchat.member
+    description: the node root for all chat commands

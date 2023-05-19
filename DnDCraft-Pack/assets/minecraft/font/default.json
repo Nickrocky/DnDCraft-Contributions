@@ -1,0 +1,381 @@
+{
+  "providers":[
+    {
+        "type": "ttf",
+        "file": "minecraft:negative_spaces.ttf",
+        "shift": [0.0, 0.0],
+        "size": 10.0,
+        "oversample": 1.0
+    },
+    {
+      "ascent":32,
+      "chars":[
+        "ꌁ"
+      ],
+      "file":"custom/ui/compendium/icons/dndcraft_logo.png",
+      "height":50,
+      "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌂ"
+       ],
+       "file":"custom/ui/chat/ooc_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+      "ascent":7,
+      "chars":[
+         "ꐇ"
+      ],
+      "file":"custom/ui/chat/dev_tag.png",
+      "height":7,
+      "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌄ"
+       ],
+       "file":"custom/ui/chat/admin_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌅ"
+       ],
+       "file":"custom/ui/chat/builder_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌆ"
+       ],
+       "file":"custom/ui/chat/announcement_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌇ"
+       ],
+       "file":"custom/ui/chat/lore_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌈ"
+       ],
+       "file":"custom/ui/chat/mod_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌉ"
+       ],
+       "file":"custom/ui/chat/help_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌋ"
+       ],
+       "file":"custom/ui/chat/whisper_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌌ"
+       ],
+       "file":"custom/ui/chat/quiet_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌍ"
+       ],
+       "file":"custom/ui/chat/event_announcement_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌎ"
+       ],
+       "file":"custom/ui/chat/speak_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌏ"
+       ],
+       "file":"custom/ui/chat/yell_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌐ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/building_resource_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 9,
+        "chars": [
+            "ꌑ"
+        ],
+        "file": "custom/ui/tooltip/middle/middle_border.png",
+        "height": 13,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 8,
+        "chars": [
+            "ꌒ"
+        ],
+        "file": "custom/ui/tooltip/bottom/bottom_border.png",
+        "height": 16,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌓ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/consumables_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌔ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/crafting_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌕ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/flora_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌖ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/ingredient_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌗ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/instrument_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌘ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/miscellaneous_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌙ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/reagent_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌚ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/rocks_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌛ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/tool_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 25,
+        "chars": [
+            "ꌜ"
+        ],
+        "file": "custom/ui/tooltip/basic_top/weapon_top_border.png",
+        "height": 30,
+        "type": "bitmap"
+    },
+    {
+       "ascent":7,
+       "chars":[
+          "ꌞ"
+       ],
+       "file":"custom/ui/chat/player_tag.png",
+       "height":7,
+       "type":"bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ꌃ"
+        ],
+        "file": "custom/ui/tooltip/bottom/weight_bottom_border.png",
+        "height": 16,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ꌟ"
+        ],
+        "file": "custom/ui/chat/dev_tag.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ऄ"
+        ],
+        "file": "custom/ui/chat/a_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "अ"
+        ],
+        "file": "custom/ui/chat/b_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "आ"
+        ],
+        "file": "custom/ui/chat/c_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "इ"
+        ],
+        "file": "custom/ui/chat/d_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ई"
+        ],
+        "file": "custom/ui/chat/e_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "उ"
+        ],
+        "file": "custom/ui/chat/f_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ऊ"
+        ],
+        "file": "custom/ui/chat/g_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ऎ"
+        ],
+        "file": "custom/ui/chat/h_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ऋ"
+        ],
+        "file": "custom/ui/chat/i_indicator.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ऌ"
+        ],
+        "file": "custom/ui/chat/alliance_tag.png",
+        "height": 7,
+        "type": "bitmap"
+    },
+    {
+        "ascent": 7,
+        "chars": [
+            "ऍ"
+        ],
+        "file": "custom/ui/chat/party_tag.png",
+        "height": 7,
+        "type": "bitmap"
+    }
+  ]
+}

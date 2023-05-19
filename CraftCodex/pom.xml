@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.dndcraft</groupId>
+    <artifactId>CraftCodex</artifactId>
+    <version>0.0.1</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/dndcraftrepo/Atlas</url>
+        </repository>
+        <repository>
+            <id>nexus</id>
+            <name>Lumine Public</name>
+            <url>https://mvn.lumine.io/repository/maven-public/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.18.1-R0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dndcraft</groupId>
+            <artifactId>atlas-paper</artifactId>
+            <version>0.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>3.12.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.wvengen</groupId>
+            <artifactId>proguard-maven-plugin</artifactId>
+            <version>2.5.3</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.wvengen</groupId>
+                <artifactId>proguard-maven-plugin</artifactId>
+                <version>2.5.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals><goal>proguard</goal></goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <options>
+                        <option>-allowaccessmodification</option>
+                        <option>-keep class com.dndcraft.craftcodex.api.**{*;}</option>
+                        <option>-keep class com.dndcraft.craftcodex.CraftCodex{*;}</option>
+                        <option>-keep class com.dndcraft.craftcodex.command.**{*;}</option>
+                        <option>-keep, allowobfuscation class com.dndcraft.craftcodex.**</option>
+                        <option>-dontnote **</option>
+                        <option>-dontwarn **</option>
+                        <option>-dontnote jdk.**</option>
+                        <option>-dontnote org.codehaus.**</option>
+                        <option>-dontnote org.bukkit.**</option>
+                        <option>-dontnote com.dndcraft.atlas.**</option>
+                        <option>-dontnote co.aikar.**</option>
+                        <option>-dontnote com.zaxxer.**</option>
+                        <option>-dontnote org.apache.**</option>
+                        <option>-dontnote javax.**</option>
+                        <option>-dontnote com.sk89q.**</option>
+                        <option>-dontnote org.spigotmc.**</option>
+                        <option>-dontnote com.google.**</option>
+                        <option>-dontnote com.fasterxml.**</option>
+                        <option>-dontnote net.kyori.**</option>
+                        <option>-dontnote com.googlecode.**</option>
+                        <option>-printseeds</option>
+                    </options>
+                    <libs>
+                        <lib>${java.home}/jmods/java.base.jmod</lib>
+                        <lib>${java.home}/jmods/java.datatransfer.jmod</lib>
+                        <lib>${java.home}/jmods/java.prefs.jmod</lib>
+                        <lib>${java.home}/jmods/java.xml.jmod</lib>
+                        <lib>${java.home}/jmods/java.desktop.jmod</lib>
+                    </libs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/stick"},"overrides":[{"predicate":{"custom_model_data":1},"model":"item/custom/cui/phantom_membrane/bell"},{"predicate":{"custom_model_data":2},"model":"item/custom/cui/phantom_membrane/cart"},{"predicate":{"custom_model_data":3},"model":"item/custom/cui/phantom_membrane/cart_covered"}]}

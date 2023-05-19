@@ -1,0 +1,6 @@
+{
+    "parent": "item/custom/cui/bow/model_12",
+    "textures": {
+        "layer0": "item/custom/cui/bow/texture_12pull0"
+    }
+}

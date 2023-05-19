@@ -1,0 +1,10 @@
+{"parent":"item/handheld","textures":{"layer0":"item/custom/cui/shield/texture_13"},
+"display": {
+        "thirdperson_righthand": {
+            "rotation": [ 5, -45, 55 ],
+	    "translation": [ 0, 4.0, 0.5 ]
+        },
+"firstperson_righthand": {
+            "rotation": [ 0, -45, 25 ],
+            "translation": [ -7.13, 3.2, 1.13 ]
+        }}}

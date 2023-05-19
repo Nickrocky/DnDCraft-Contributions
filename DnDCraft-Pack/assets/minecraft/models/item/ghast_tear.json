@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/ghast_tear"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":1}, "model": "item/dndcraft/apollo/banjo"},
+    {"predicate": {"custom_model_data":2}, "model": "item/dndcraft/apollo/base_drum"},
+    {"predicate": {"custom_model_data":3}, "model": "item/dndcraft/apollo/bass_guitar"},
+    {"predicate": {"custom_model_data":4}, "model": "item/dndcraft/apollo/bell"},
+    {"predicate": {"custom_model_data":5}, "model": "item/dndcraft/apollo/bit"},
+    {"predicate": {"custom_model_data":6}, "model": "item/dndcraft/apollo/chime"},
+    {"predicate": {"custom_model_data":7}, "model": "item/dndcraft/apollo/cow_bell"},
+    {"predicate": {"custom_model_data":8}, "model": "item/dndcraft/apollo/didgeridoo"},
+    {"predicate": {"custom_model_data":9}, "model": "item/dndcraft/apollo/flute"},
+    {"predicate": {"custom_model_data":10}, "model": "item/dndcraft/apollo/guitar"},
+    {"predicate": {"custom_model_data":11}, "model": "item/dndcraft/apollo/harp"},
+    {"predicate": {"custom_model_data":12}, "model": "item/dndcraft/apollo/play_button"},
+    {"predicate": {"custom_model_data":13}, "model": "item/dndcraft/apollo/pause_button"}
+  ]
+}

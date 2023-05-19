@@ -1,0 +1,15 @@
+name: Gaia
+version: ${project.version}
+author: nickrocky213
+main: com.dndcraft.gaia.Gaia
+depend: [Atlas, Prometheus]
+api-version: 1.18
+commands:
+  gaia:
+    description: A command node for Gaia
+    usage: /gaia <subcommand>
+  i:
+    description: Item give command for DnDCraft
+    permission: gaia.admin
+    usage: /i <ItemName> <Amount>
+    aliases: item

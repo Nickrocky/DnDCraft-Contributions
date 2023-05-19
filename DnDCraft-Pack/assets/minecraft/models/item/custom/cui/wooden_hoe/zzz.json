@@ -1,0 +1,9 @@
+{"parent":"minecraft:item/handheld",
+"textures":{"layer0":"item/custom/cui/wooden_hoe/texture_11"},
+
+"display": {
+    "thirdperson_righthand": {
+	"rotation": [90, -90, 20 ],
+        "translation": [ -2, -2, -22.5 ]
+    }}
+}

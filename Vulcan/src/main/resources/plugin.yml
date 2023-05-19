@@ -1,0 +1,34 @@
+name: Vulcan
+main: com.dndcraft.vulcan.Vulcan
+version: 0.2.1
+depend: [Atlas]
+api-version: 1.18
+commands:
+  handoff:
+    command: /handoff
+    permission: vulcan.command.handoff
+    description: A useful little command for handing off items to others
+  showitem:
+    command: /showitem
+    permission: vulcan.command.showitem
+    description: Show your current item to an other player
+  warp:
+    command: /warp
+    permission: vulcan.command.warp
+    description: placeholder
+  sbt:
+    command: /sbt
+    permission: vulcan.sbt
+    description: fuckoff
+  test:
+    command: /test
+    permission: vulcan.admin
+    description: nickrocky, enough said
+  customitem:
+    command: /customitem
+    permission: vulcan.admin
+    description: makes custom items with a custom model data tag
+permissions:
+  vulcan.command.warp.elevated:
+    children:
+      vulcan.command.warp: true

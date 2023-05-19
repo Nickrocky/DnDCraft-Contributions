@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/raw_copper"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":1}, "model": "item/dndcraft/noctis/basic_lock"},
+    {"predicate": {"custom_model_data":2}, "model": "item/dndcraft/noctis/advanced_lock"}
+  ]
+}

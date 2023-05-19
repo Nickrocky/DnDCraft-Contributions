@@ -1,0 +1,8 @@
+{"parent":"minecraft:item/template_skull","overrides":[
+{"predicate":{"custom_model_data":4},"model":"modelengine:halfling/head"},
+{"predicate":{"custom_model_data":5},"model":"modelengine:halfling/torso"},
+{"predicate":{"custom_model_data":6},"model":"modelengine:halfling/rightarm"},
+{"predicate":{"custom_model_data":7},"model":"modelengine:halfling/leftarm"},
+{"predicate":{"custom_model_data":8},"model":"modelengine:halfling/rightleg"},
+{"predicate":{"custom_model_data":9},"model":"modelengine:halfling/leftleg"}
+]}

@@ -1,0 +1,7 @@
+{"parent":"item/generated","textures":{"layer0":"item/bow"},"display":{"firstperson_righthand":{"rotation":[0,-90,25],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]},"thirdperson_lefthand":{"rotation":[-80,-280,40],"translation":[-1,-2,2.5],"scale":[0.9,0.9,0.9]},"firstperson_lefthand":{"rotation":[0,90,-25],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]},"thirdperson_righthand":{"rotation":[-80,260,-40],"translation":[-1,-2,2.5],"scale":[0.9,0.9,0.9]}},"overrides":[{"predicate":{"custom_model_data":9},"model":"item/custom/cui/bow/model_9"},
+{"predicate":{"custom_model_data":12},"model":"item/custom/cui/bow/model_12"},
+{"predicate": {"custom_model_data":12,"pulling": 1},"model": "item/custom/cui/bow/bow_pulling_0"},
+{"predicate": {"custom_model_data":12,"pulling": 1,"pull": 0.58},"model": "item/custom/cui/bow/bow_pulling_1"},
+{"predicate": {"custom_model_data":12,"pulling": 1,"pull": 1.0},"model": "item/custom/cui/bow/bow_pulling_2"},
+{"predicate": {"custom_model_data":12,"charged": 1},"model": "item/custom/cui/bow/bow_charged"}
+]}

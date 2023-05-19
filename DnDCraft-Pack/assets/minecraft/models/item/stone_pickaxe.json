@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/stone_pickaxe"},"overrides":[{"predicate":{"custom_model_data":8},"model":"item/custom/cui/stone_pickaxe/model_8"}]}
